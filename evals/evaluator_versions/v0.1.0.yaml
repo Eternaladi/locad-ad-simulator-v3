@@ -1,0 +1,6 @@
+version: v0.1.0
+notes: Original persona-only validator.
+known_limits:
+  - schema mismatch with ICP files
+  - no coverage reporting
+  - no evidence linter

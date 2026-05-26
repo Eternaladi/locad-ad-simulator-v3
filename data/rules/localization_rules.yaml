@@ -1,0 +1,7 @@
+regions:
+  USA:
+    preferred_terms: [FBA, Shopify, Amazon, storage surcharges, Prime-like, BFCM]
+    proof_preferences: [US coverage, FBA migration, Shopify integration, returns workflow]
+  GCC:
+    preferred_terms: [GCC, UAE, KSA, Ramadan, Noon, Salla, Zid, cross-border, compliance]
+    proof_preferences: [damage/loss guarantees, Ramadan peak, cross-border compliance, premium SKU handling]

@@ -1,0 +1,7 @@
+name: strict
+min_overall: 7.5
+min_trust: 6.8
+min_proof: 6.5
+max_high_risk_flags: 1
+min_go_rate: 0.7
+weak_band_delta: 0.6

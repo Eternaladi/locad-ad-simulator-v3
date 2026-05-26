@@ -1,0 +1,33 @@
+brand: Locad
+category: Cloud logistics and fulfillment for D2C and omnichannel brands
+positioning: >
+  Locad helps D2C and omnichannel brands scale fulfillment across marketplaces, storefronts,
+  warehouses, and carriers without adding operational headcount or losing visibility.
+core_value_props:
+  - Multi-channel inventory sync across Shopify, Amazon, Noon, Salla, Zid, and other marketplaces
+  - Distributed fulfillment and warehouse network
+  - Multi-carrier shipping optimization
+  - SLA and marketplace compliance visibility
+  - Peak-season campaign inventory controls
+  - Returns and customer experience support
+approved_language:
+  - Cut fulfillment costs without adding warehouse headcount
+  - Protect marketplace SLAs during peak campaigns
+  - Sync inventory across storefronts and marketplaces
+  - Reduce ops firefighting as order volume scales
+avoid_language:
+  - We are the best 3PL
+  - Guaranteed cheapest fulfillment
+  - Instant global expansion
+  - Zero logistics risk
+  - Perfect delivery every time
+primary_regions:
+  - USA
+  - GCC
+buyer_roles:
+  - Founder / CEO
+  - Head of Operations
+  - Marketplace Manager
+  - Finance Lead
+  - Growth Lead
+  - CX / Brand Lead

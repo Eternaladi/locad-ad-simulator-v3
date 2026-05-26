@@ -1,0 +1,7 @@
+name: loose
+min_overall: 5.8
+min_trust: 4.8
+min_proof: 4.5
+max_high_risk_flags: 3
+min_go_rate: 0.45
+weak_band_delta: 0.6

@@ -1,0 +1,16 @@
+claim_categories:
+  cost:
+    keywords: [cost, costs, save, savings, margin, surcharge, storage, fee, cheaper, reduce]
+    proof_required: [percentage, benchmark, case study, before/after]
+  speed:
+    keywords: [same-day, next-day, fast, faster, delivery, fulfillment, SLA, Prime-like]
+    proof_required: [SLA, percentage, region, carrier]
+  inventory:
+    keywords: [inventory, sync, stock, reserved, visibility, oversell, marketplace]
+    proof_required: [sync frequency, integration, dashboard]
+  cross_border:
+    keywords: [cross-border, GCC, KSA, UAE, compliance, customs, region, expansion]
+    proof_required: [region-specific example, compliance workflow]
+  scale:
+    keywords: [scale, scaling, grow, growth, order volume, peak, Ramadan, BFCM]
+    proof_required: [peak-volume example, case study, operational workflow]

@@ -1,0 +1,3 @@
+version: v0.2.0
+notes: Schema-first ICP compiler, coverage panels, evidence linter, committee simulation, and baseline comparator.
+promotion_status: current

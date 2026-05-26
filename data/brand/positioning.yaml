@@ -1,0 +1,13 @@
+positioning_pillars:
+  margin_protection:
+    language: Protect contribution margin as order volume scales.
+    proof_needed: cost benchmark, before/after cost as percent of revenue, carrier allocation data
+  marketplace_reliability:
+    language: Protect SLA compliance and marketplace visibility.
+    proof_needed: SLA dashboard, marketplace-specific case study, penalty reduction proof
+  cross_border_scale:
+    language: Expand across regions without operational sprawl.
+    proof_needed: region-specific compliance and delivery examples
+  operational_visibility:
+    language: Know where stock is and what is reserved for each channel.
+    proof_needed: inventory sync frequency, integration list, dashboard screenshot

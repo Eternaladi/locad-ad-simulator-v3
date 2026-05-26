@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["name", "size", "required_axes", "sampling"],
+  "properties": {
+    "name": {"type": "string"},
+    "size": {"type": "integer", "minimum": 1},
+    "filters": {"type": "object"},
+    "required_axes": {"type": "array", "items": {"type": "string"}},
+    "sampling": {"type": "object"}
+  }
+}

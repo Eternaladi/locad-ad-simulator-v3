@@ -1,0 +1,72 @@
+name: Locad Ad Validator
+
+on:
+  workflow_dispatch:
+    inputs:
+      market:
+        description: "Market to validate against"
+        required: true
+        type: choice
+        options:
+          - usa
+          - gcc_uae
+          - gcc_ksa
+        default: usa
+      ad_image:
+        description: Path to ad image
+        required: false
+        default: inputs/ads/sample_locad_ad.png
+      ad_copy:
+        description: Path to ad copy txt
+        required: true
+        default: inputs/ads/sample_locad_ad_copy.txt
+      panel:
+        description: Panel config name
+        required: true
+        default: usa_gcc_balanced
+      gate:
+        description: Gate strictness
+        required: true
+        default: standard
+  pull_request:
+    paths:
+      - "inputs/ads/**"
+      - "data/icp/**"
+      - "data/personas/**"
+      - "data/brand/**"
+      - "data/rules/**"
+      - "src/**"
+      - "scripts/**"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    env:
+      LOCAD_MARKET: ${{ github.event.inputs.market || 'usa' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - run: python scripts/compile_icps.py
+      - name: Validate ad
+        run: |
+          python scripts/validate_ad.py \
+            --image "${{ github.event.inputs.ad_image || 'inputs/ads/sample_locad_ad.png' }}" \
+            --copy "${{ github.event.inputs.ad_copy || 'inputs/ads/sample_locad_ad_copy.txt' }}" \
+            --panel "${{ github.event.inputs.panel || 'usa_gcc_balanced' }}" \
+            --gate "${{ github.event.inputs.gate || 'standard' }}" \
+            --market "${{ github.event.inputs.market || 'usa' }}" \
+            --mode all \
+            --ci
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: locad-ad-validation-report
+          path: |
+            runs/**/final/report.md
+            runs/**/final/report.json
+            runs/**/final/pr_comment.md
+            runs/**/parsed/market_fit.json
+            runs/history.csv

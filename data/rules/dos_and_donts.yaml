@@ -1,0 +1,60 @@
+rules:
+  - id: avoid_generic_3pl_language
+    severity: medium
+    description: Ad should not sound like any generic 3PL.
+    bad_patterns:
+      - scale your logistics
+      - seamless fulfillment
+      - grow faster
+      - logistics made easy
+      - all-in-one fulfillment
+    preferred_patterns:
+      - inventory sync
+      - marketplace SLA
+      - multi-carrier
+      - fulfillment cost as % of revenue
+      - FBA storage surcharges
+      - Ramadan peak
+  - id: require_proof_for_savings_claim
+    severity: high
+    description: Cost savings claims need numbers, benchmarks, or case studies.
+    applies_when_claim_mentions:
+      - save
+      - savings
+      - reduce costs
+      - cheaper
+      - cut fulfillment costs
+    required_evidence:
+      - percentage
+      - benchmark
+      - case study
+      - before/after
+      - fee comparison
+  - id: require_proof_for_speed_claim
+    severity: high
+    description: Speed claims need SLA, region, carrier, or fulfillment-rate context.
+    applies_when_claim_mentions:
+      - same-day
+      - next-day
+      - faster delivery
+      - Prime-like
+      - 3 days
+    required_evidence:
+      - SLA
+      - percentage
+      - region
+      - carrier
+      - warehouse coverage
+  - id: answer_migration_risk
+    severity: medium
+    description: Ads targeting FBA or existing 3PL users should answer migration anxiety.
+    applies_when_claim_mentions:
+      - FBA
+      - migrate
+      - switch
+      - replace your 3PL
+    required_evidence:
+      - integration
+      - migration plan
+      - case study
+      - onboarding

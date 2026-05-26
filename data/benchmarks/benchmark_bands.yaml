@@ -1,0 +1,16 @@
+bands:
+  overall_score:
+    top: 7.8
+    strong: 7.2
+    average: 6.5
+    weak: 5.8
+  trust:
+    top: 7.3
+    strong: 6.8
+    average: 5.8
+    weak: 5.0
+  proof_sufficiency:
+    top: 7.4
+    strong: 6.5
+    average: 5.5
+    weak: 4.8

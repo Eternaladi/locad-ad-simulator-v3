@@ -1,0 +1,20 @@
+name: Promote evaluator version
+
+on:
+  workflow_dispatch:
+    inputs:
+      candidate_version:
+        description: Candidate evaluator version
+        required: true
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - run: python evals/run_eval_suite.py
+      - run: echo "Promotion requires human review of holdout evals before changing EVALUATOR_VERSION."

@@ -1,0 +1,7 @@
+name: sample_campaign
+panel: committee_default
+gate: standard
+variants:
+  - id: sample_locad
+    image: inputs/ads/sample_locad_ad.png
+    copy: inputs/ads/sample_locad_ad_copy.txt

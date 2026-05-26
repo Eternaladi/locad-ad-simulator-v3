@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "version": "2025",
+    "description": "Locad buyer personas for ad validation scoring. Each persona evaluates ads through their specific lens and produces a reaction, stance, and proof gap.",
+    "created": "2025-05-25"
+  },
+  "personas": [
+    {
+      "persona_id": "CEO_FOUNDER",
+      "role": "CEO / Founder",
+      "key_priorities": [
+        "Revenue growth and market expansion",
+        "Brand equity and reputation",
+        "Maintaining healthy margins",
+        "Scaling operations without losing control",
+        "Meeting investor or personal growth expectations"
+      ],
+      "pain_points": [
+        "Fulfillment seen as cost center dragging profitability",
+        "Negative reviews and lost sales from poor logistics",
+        "Difficulty scaling into new markets (SEA, GCC, US)",
+        "No unified supply chain visibility",
+        "Competitors delivering faster and cheaper"
+      ],
+      "what_they_value": [
+        "Strategic growth partner not just a warehouse",
+        "Margin protection (avoid SLA penalties, stockouts, costly returns)",
+        "Regional and global expansion readiness",
+        "Transparent billing and performance dashboards",
+        "Brand trust through reliable delivery"
+      ],
+      "messaging_hook": "Locad turns fulfillment from a cost center into a growth engine",
+      "scoring_signals": [
+        "strategic impact",
+        "margins",
+        "scalability",
+        "market expansion",
+        "metrics proving reliability",
+        "cost center to growth engine"
+      ],
+      "red_flags": [
+        "Overly technical ops language with no strategic framing",
+        "Pure cost savings pitch without growth angle",
+        "Ignoring brand trust and reputation risk"
+      ],
+      "objection_patterns": [
+        "Can Locad support our expansion into [new market]?",
+        "Is Locad proven at our growth stage?",
+        "How does this protect our brand reputation?",
+        "What is the strategic ROI beyond cost savings?"
+      ]
+    },
+    {
+      "persona_id": "OPERATIONS_COO",
+      "role": "Operations / COO",
+      "key_priorities": [
+        "Day-to-day order accuracy and SLA compliance",
+        "Reducing stockouts, returns, and escalations",
+        "Smooth warehouse and last-mile workflows",
+        "Balancing speed vs cost in delivery",
+        "Protecting marketplace seller ratings"
+      ],
+      "pain_points": [
+        "Constant SLA pressure from Shopee, Lazada, TikTok Shop, Amazon",
+        "Overselling due to poor inventory sync",
+        "Reverse logistics complexity (returns, COD, exchanges)",
+        "High costs from fragmented carrier usage",
+        "Lack of real-time visibility into stock and order flow"
+      ],
+      "what_they_value": [
+        "Tech-enabled partner reducing errors and manual work",
+        "SLA compliance tools and dashboards",
+        "Multi-warehouse network for regional delivery flexibility",
+        "Returns management through a single system",
+        "Automation (low-stock alerts, OOS notifications, pack hierarchy)"
+      ],
+      "messaging_hook": "Locad gives you fewer fires to fight every day",
+      "scoring_signals": [
+        "accuracy",
+        "SLA compliance",
+        "automation",
+        "operational reliability",
+        "real-time visibility",
+        "error reduction",
+        "returns management",
+        "carrier optimization"
+      ],
+      "red_flags": [
+        "Vague fast delivery language without SLA specifics",
+        "No mention of ops outcomes or accuracy metrics",
+        "Pure marketing/growth language with no operational grounding"
+      ],
+      "objection_patterns": [
+        "What is your actual SLA compliance rate?",
+        "How does your OMS reduce overselling specifically?",
+        "Can your returns management handle our volume?",
+        "How does your carrier network perform vs our current fragmented setup?"
+      ]
+    },
+    {
+      "persona_id": "ECOM_MANAGER",
+      "role": "E-commerce Manager",
+      "key_priorities": [
+        "Running smooth campaigns across marketplaces and storefronts",
+        "Preventing overselling during flash sales",
+        "Protecting ratings and reviews during peak campaigns",
+        "Ensuring consistent CX across delivery and returns",
+        "Coordinating with ops and marketing to drive growth"
+      ],
+      "pain_points": [
+        "Overselling due to poor inventory sync across Shopee, Lazada, TikTok, Amazon, Shopify",
+        "SLA penalties during mega campaigns (11.11, 12.12, BFCM, Ramadan)",
+        "High return volumes ruining CX and ratings",
+        "Cart abandonment from high shipping costs or delivery delays",
+        "Manual setup for bundles and GWPs across channels"
+      ],
+      "what_they_value": [
+        "OMS with real-time sync every 3 minutes to prevent overselling",
+        "SLA dashboards for Shopee, Lazada, Amazon",
+        "Virtual bundling and GWP module for high-AOV campaigns",
+        "Multi-carrier shipping engine for competitive rates",
+        "Same-day and next-day fulfillment readiness during campaigns"
+      ],
+      "messaging_hook": "Locad helps you win campaigns without delivery failures holding you back",
+      "scoring_signals": [
+        "campaign readiness",
+        "inventory sync",
+        "ratings protection",
+        "oversell prevention",
+        "bundling",
+        "GWP",
+        "SLA dashboards",
+        "peak season"
+      ],
+      "red_flags": [
+        "Pitching only cheap shipping without campaign or CX angle",
+        "Ignoring review and ratings impact",
+        "No mention of peak season or mega sale readiness"
+      ],
+      "objection_patterns": [
+        "How does your OMS sync prevent overselling during 11.11?",
+        "Can your bundling module handle our GWP complexity?",
+        "What is your SLA performance during peak campaigns?",
+        "How quickly can we integrate all our channels?"
+      ]
+    },
+    {
+      "persona_id": "FINANCE_CFO",
+      "role": "Finance / CFO",
+      "key_priorities": [
+        "Protecting and improving contribution margins",
+        "Predictable and transparent cost structures",
+        "Scaling efficiently without ballooning fulfillment costs",
+        "Risk management around SLA penalties and write-offs",
+        "Data-driven expansion cost modeling"
+      ],
+      "pain_points": [
+        "Fulfillment seen as cost sink with no ROI visibility",
+        "Rising warehouse and last-mile costs eating into margins",
+        "Unexpected SLA penalties showing up in P&L",
+        "Lack of cost visibility across vendors and channels",
+        "Difficulty modeling cross-border expansion logistics costs"
+      ],
+      "what_they_value": [
+        "Transparent billing with no hidden fees",
+        "Flexible pay-for-use pricing model",
+        "Cheapest-first carrier allotment reducing per-shipment cost",
+        "Unified OMS reducing overselling and cancellation costs",
+        "Regional warehousing that lowers last-mile cost"
+      ],
+      "messaging_hook": "Locad turns logistics from a cost center into a margin protector",
+      "scoring_signals": [
+        "margin improvement",
+        "cost predictability",
+        "financial control",
+        "transparent pricing",
+        "savings percentage",
+        "ROI",
+        "SLA penalty reduction",
+        "cost visibility"
+      ],
+      "red_flags": [
+        "Technical ops language without financial outcome",
+        "Vague cost claims without specific proof or percentage",
+        "No mention of billing transparency or pricing model"
+      ],
+      "objection_patterns": [
+        "Is the savings claim verifiable for our SKU mix and volume?",
+        "What is the total cost of migration vs ongoing savings?",
+        "How does your billing compare to our current setup?",
+        "What SLA penalty exposure do you protect against?"
+      ]
+    },
+    {
+      "persona_id": "MARKETING",
+      "role": "Marketing",
+      "key_priorities": [
+        "Driving sales through campaigns and promotions",
+        "Increasing AOV through bundles and GWPs",
+        "Reducing cart abandonment from shipping friction",
+        "Protecting brand ratings for organic visibility",
+        "Coordinating with ops for campaign launch readiness"
+      ],
+      "pain_points": [
+        "Campaigns fail due to stockouts or slow delivery eroding marketing ROI",
+        "Abandoned carts from high shipping costs or long delivery times",
+        "Inability to set up bundles easily across multiple channels",
+        "Negative reviews hurting organic ranking and paid ad efficiency",
+        "Reverse logistics undermining post-campaign CX and LTV"
+      ],
+      "what_they_value": [
+        "Virtual bundling and GWP module for high-AOV campaigns",
+        "Multi-carrier shipping engine for competitive nationwide or regional rates",
+        "Same-day and next-day delivery readiness to convert at-checkout hesitation",
+        "OMS real-time sync preventing stockouts that kill campaign ROI",
+        "Returns management that preserves post-purchase brand experience"
+      ],
+      "messaging_hook": "Locad makes sure your campaigns convert by keeping promises to customers",
+      "scoring_signals": [
+        "conversion rate",
+        "campaign success",
+        "AOV growth",
+        "cart abandonment reduction",
+        "marketing ROI",
+        "brand ratings",
+        "bundling",
+        "GWP"
+      ],
+      "red_flags": [
+        "Pure backend ops pitch with no marketing or conversion outcome",
+        "No mention of AOV growth levers or bundling",
+        "Ignoring ratings and organic ranking impact"
+      ],
+      "objection_patterns": [
+        "Can Locad handle the volume spikes from our major campaigns?",
+        "How does the bundling module integrate with our promotional calendar?",
+        "Will faster delivery actually improve our conversion rate?",
+        "How does fulfillment connect to our marketing ROI metrics?"
+      ]
+    },
+    {
+      "persona_id": "CX_CCO",
+      "role": "Customer Experience / CCO",
+      "key_priorities": [
+        "Reducing customer complaints and escalations",
+        "Protecting CSAT and NPS scores",
+        "Fast and painless returns and refunds processing",
+        "Maintaining strong marketplace reviews and ratings",
+        "Delivering reliable frustration-free customer experience"
+      ],
+      "pain_points": [
+        "Frequent complaints about late deliveries degrading CSAT",
+        "Stockouts causing order cancellations and negative reviews",
+        "Poor order visibility driving high WISMO ticket volume",
+        "Complex slow returns creating repeat escalations",
+        "Marketplace ratings dropping due to SLA and delivery failures"
+      ],
+      "what_they_value": [
+        "End-to-end order visibility through OMS tracking",
+        "Returns management module with automated customer notifications",
+        "Same-day and next-day fulfillment to keep delivery promises",
+        "SLA dashboards with proactive alerting before failures",
+        "Automation like OOS notifications and low-stock alerts"
+      ],
+      "messaging_hook": "Locad helps you keep promises to customers",
+      "scoring_signals": [
+        "delivery reliability",
+        "returns handling",
+        "customer trust",
+        "CSAT",
+        "NPS",
+        "WISMO reduction",
+        "complaint reduction",
+        "ratings protection"
+      ],
+      "red_flags": [
+        "Growth and expansion language with no CX outcome mentioned",
+        "Ignoring complaint volume or ratings impact",
+        "No mention of returns handling or post-purchase experience"
+      ],
+      "objection_patterns": [
+        "What is your actual on-time delivery rate that we can communicate to customers?",
+        "How does your returns process work end-to-end?",
+        "Can you provide order tracking data we can surface to customers?",
+        "How quickly do you resolve delivery issues when they occur?"
+      ]
+    }
+  ]
+}

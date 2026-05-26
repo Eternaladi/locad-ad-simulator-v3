@@ -1,0 +1,30 @@
+competitors:
+  generic_3pl:
+    common_language:
+      - seamless fulfillment
+      - fast shipping
+      - grow your brand
+      - scalable logistics
+    locad_difference:
+      - marketplace and channel-specific inventory controls
+      - distributed fulfillment network
+      - multi-carrier cost optimization
+      - D2C + marketplace operations focus
+  amazon_fba:
+    common_objections:
+      - migration sounds painful
+      - FBA already handles returns
+      - concern about Prime-like promise
+    locad_difference:
+      - multi-channel flexibility outside FBA lock-in
+      - inventory visibility across channels
+      - margin and storage-fee control
+  local_3pl:
+    common_objections:
+      - local partner already knows the market
+      - white-glove handling matters
+      - loss/damage risk for premium SKUs
+    locad_difference:
+      - cross-region scaling and marketplace integrations
+      - campaign inventory controls
+      - multi-carrier resilience

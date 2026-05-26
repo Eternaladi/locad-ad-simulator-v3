@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+runs/*
+!runs/.gitkeep
+reports/*
+!reports/.gitkeep
+!reports/README.md
+data/icp/compiled/*.jsonl
+data/icp/compiled/*.json
+data/icp/compiled/*.md
+.DS_Store

@@ -1,0 +1,25 @@
+name: committee_default
+size: 18
+description: Panel tuned for buying-committee objections.
+coverage_targets:
+  regions:
+    USA: 0.5
+    GCC: 0.5
+required_axes:
+  - region
+  - persona
+  - decision_maker_title
+  - primary_marketplace
+  - top_pain_points
+  - likely_objections
+  - buying_trigger
+sampling:
+  strategy: max_coverage
+  seed: 99
+committee_roles:
+  - Founder / CEO
+  - Head of Operations
+  - Marketplace Manager
+  - Finance Lead
+  - CX / Brand Lead
+  - Growth Lead

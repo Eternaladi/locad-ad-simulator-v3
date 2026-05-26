@@ -1,0 +1,22 @@
+restricted_claims:
+  - id: guaranteed_cheapest
+    severity: high
+    phrases:
+      - guaranteed cheapest
+      - cheapest fulfillment guaranteed
+      - always cheapest
+    reason: Cost claims require benchmark context and disclaimers.
+  - id: guaranteed_delivery
+    severity: high
+    phrases:
+      - guaranteed same-day delivery everywhere
+      - perfect delivery
+      - zero delay
+    reason: Delivery guarantees are region, carrier, and SKU dependent.
+  - id: instant_expansion
+    severity: medium
+    phrases:
+      - instant global expansion
+      - expand overnight
+      - zero compliance work
+    reason: Cross-border expansion requires compliance, inventory, and operational setup.

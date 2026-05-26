@@ -1,0 +1,39 @@
+name: standard
+min_overall: 6.8
+min_trust: 5.8
+min_proof: 5.5
+max_high_risk_flags: 2
+min_go_rate: 0.55
+weak_band_delta: 0.6
+
+# Per-market gate overrides — applied automatically when --market is passed
+market_gates:
+  usa:
+    min_overall: 7.0
+    min_go_rate: 0.60
+    min_localization_fit: 6.5
+    label: "United States"
+    proof_gaps_required:
+      - "FBA migration proof or alternative proof of US brand migration"
+      - "US warehouse SLA data (same-day or 3-day nationwide)"
+      - "Multi-channel case study for US market"
+  gcc_uae:
+    min_overall: 7.2
+    min_go_rate: 0.65
+    min_trust: 7.0
+    label: "GCC (UAE)"
+    proof_gaps_required:
+      - "UAE or KSA cross-border fulfillment proof"
+      - "Premium handling credentials for luxury or beauty"
+      - "Free Trade Zone advantage mention"
+      - "Ramadan peak readiness (if in Ramadan period)"
+  gcc_ksa:
+    min_overall: 7.2
+    min_go_rate: 0.65
+    min_trust: 7.2
+    label: "GCC (KSA)"
+    proof_gaps_required:
+      - "KSA-specific delivery proof or SLA track record"
+      - "Noon, Zid, or Salla integration mention"
+      - "Trust-first messaging for luxury or high-value SKUs"
+      - "Ramadan peak readiness (if in Ramadan period)"

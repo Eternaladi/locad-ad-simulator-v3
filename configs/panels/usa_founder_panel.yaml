@@ -1,0 +1,14 @@
+name: usa_founder_panel
+size: 16
+filters:
+  region: USA
+  persona: The Scaling DTC Founder
+required_axes:
+  - product_category
+  - primary_marketplace
+  - revenue_stage
+  - top_pain_points
+  - likely_objections
+sampling:
+  strategy: max_coverage
+  seed: 17

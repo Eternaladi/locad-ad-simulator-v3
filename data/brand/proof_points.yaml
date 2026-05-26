@@ -1,0 +1,26 @@
+proof_points:
+  - id: inventory_sync_3_min
+    claim: OMS real-time inventory sync every 3 minutes across channels
+    categories: [inventory, marketplace, visibility]
+    allowed_regions: [USA, GCC]
+    requires_context: true
+  - id: multicarrier_50_plus
+    claim: Multicarrier shipping engine with 50+ global carriers
+    categories: [carrier, cost, resilience]
+    allowed_regions: [USA, GCC]
+    requires_context: true
+  - id: same_day_fulfillment_97_3
+    claim: 97.3% same-day fulfillment rate
+    categories: [speed, fulfillment]
+    allowed_regions: [USA, GCC]
+    requires_context: true
+  - id: fulfillment_storage_savings_44
+    claim: Up to 44% savings on fulfillment/storage fees vs traditional providers
+    categories: [cost, margin]
+    allowed_regions: [USA, GCC]
+    requires_disclaimer: true
+  - id: marketplace_inventory_lock
+    claim: Marketplace Inventory Lock to reserve stock for specific campaigns
+    categories: [inventory, campaigns, marketplace]
+    allowed_regions: [GCC, USA]
+    requires_context: true

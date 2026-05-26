@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["icp_id", "region", "persona", "product_category", "sales_channels", "top_pain_points", "locad_value_propositions", "likely_objections"],
+  "properties": {
+    "icp_id": {"type": "string"},
+    "region": {"type": "string"},
+    "persona": {"type": "string"},
+    "product_category": {"type": "string"},
+    "sales_channels": {"type": "array", "items": {"type": "string"}},
+    "top_pain_points": {"type": "array", "items": {"type": "string"}},
+    "locad_value_propositions": {"type": "array", "items": {"type": "string"}},
+    "likely_objections": {"type": "array", "items": {"type": "string"}}
+  }
+}

@@ -1,0 +1,378 @@
+{
+  "meta": {
+    "market": "usa",
+    "market_label": "United States",
+    "description": "US-headquartered D2C brands selling on Amazon, Shopify, eBay, TikTok Shop, or Temu. Face rising FBA fees, multi-channel complexity, high return rates, and margin pressure.",
+    "key_proof_points": [
+      "97.3% same-day fulfillment",
+      "98% 3-day nationwide coverage",
+      "Up to 44% savings vs traditional providers",
+      "50+ carrier network",
+      "OMS real-time sync every 3 minutes"
+    ],
+    "version": "2.0",
+    "created": "2025-05-25"
+  },
+  "icps": [
+    {
+      "icp_id": "usa_fashion_amazon_early",
+      "persona": "Founder / CEO",
+      "persona_id": "CEO_FOUNDER",
+      "region": "USA",
+      "hq_location": "United States",
+      "decision_maker_title": "Founder / CEO",
+      "age_range": "28-42",
+      "product_category": "Fashion & Accessories",
+      "sales_channels": ["Amazon", "Shopify"],
+      "primary_marketplace": "Amazon",
+      "top_marketplaces": ["Amazon", "Shopify"],
+      "revenue_stage": "Early Stage",
+      "annual_revenue_range": "$10k–$100k",
+      "employee_count": "1-10",
+      "top_pain_points": [
+        "Rising FBA storage and fulfillment fees eating into margins",
+        "Difficulty meeting 2-day delivery promise nationwide",
+        "High return rates from size/fit issues draining contribution margin",
+        "Single-carrier dependency causing delays during peak seasons",
+        "No real-time cross-channel inventory visibility leading to overselling"
+      ],
+      "locad_value_propositions": [
+        "97.3% same-day fulfillment rate outperforms FBA for comparable SKUs",
+        "Up to 44% savings on fulfillment and storage vs FBA and traditional 3PLs",
+        "50+ carrier network eliminates single-carrier risk and reduces cost",
+        "OMS syncs inventory every 3 minutes across Amazon and Shopify",
+        "Returns management with automated restocking reduces reverse logistics cost"
+      ],
+      "key_motivations": [
+        "Protect margins while scaling order volume",
+        "Reduce fulfillment cost to reinvest in paid ads",
+        "Build a brand not dependent on Amazon's ecosystem"
+      ],
+      "likely_objections": [
+        "Can Locad really replace FBA for an early-stage brand?",
+        "Will migration disrupt our Amazon account health and seller ratings?",
+        "Is Locad proven for US brands at our volume?",
+        "How does billing compare to our current FBA setup?"
+      ],
+      "buying_trigger": "FBA fee increase notification or first month with negative margins on a hero SKU",
+      "content_that_converts": "Side-by-side FBA vs Locad cost comparison, case study of a fashion brand saving 40%+ on fulfillment",
+      "ad_creative_formats_that_resonate": ["carousel cost breakdown", "founder testimonial video", "before/after margin chart"],
+      "best_ad_channels": ["LinkedIn", "Meta", "Amazon Ads"]
+    },
+    {
+      "icp_id": "usa_health_beauty_shopify_growing",
+      "persona": "E-commerce Manager",
+      "persona_id": "ECOM_MANAGER",
+      "region": "USA",
+      "hq_location": "United States",
+      "decision_maker_title": "E-commerce Manager",
+      "age_range": "26-38",
+      "product_category": "Health & Beauty",
+      "sales_channels": ["Shopify", "Amazon", "TikTok Shop"],
+      "primary_marketplace": "Shopify",
+      "top_marketplaces": ["Shopify", "Amazon", "TikTok Shop"],
+      "revenue_stage": "Growing / Scaling",
+      "annual_revenue_range": "$100k–$1M",
+      "employee_count": "11-50",
+      "top_pain_points": [
+        "Overselling during TikTok viral moments due to poor inventory sync",
+        "SLA penalties on Amazon during peak campaigns (BFCM, Prime Day)",
+        "High return volumes from incorrect orders impacting brand ratings",
+        "Rising 3PL storage costs as SKU count grows",
+        "Manual bundling setup for GWP promotions across channels"
+      ],
+      "locad_value_propositions": [
+        "OMS real-time sync every 3 minutes prevents overselling across Shopify, Amazon, TikTok Shop",
+        "97.3% same-day fulfillment protects Amazon seller ratings and TikTok Shop SLAs",
+        "Virtual bundling and GWP module enables promotions without manual ops overhead",
+        "Returns management with automated restocking reduces cost of high return rates",
+        "50+ carrier network with cheapest-first allotment reduces per-shipment cost"
+      ],
+      "key_motivations": [
+        "Capitalize on TikTok viral moments without stockout risk",
+        "Scale SKU count without proportional logistics cost increase",
+        "Protect Amazon ratings during high-volume campaign periods"
+      ],
+      "likely_objections": [
+        "Can Locad really handle TikTok Shop SLA requirements?",
+        "Will migration disrupt our Amazon account health?",
+        "How do you handle temperature-sensitive health products?",
+        "Is Locad proven for US brands scaling from $500k to $1M?"
+      ],
+      "buying_trigger": "First TikTok viral stockout event or Amazon SLA warning during a campaign",
+      "content_that_converts": "Health/beauty brand case study showing campaign readiness, GWP bundling ROI",
+      "ad_creative_formats_that_resonate": ["short-form video demo of OMS sync", "campaign readiness checklist", "ROI calculator"],
+      "best_ad_channels": ["TikTok", "Meta", "LinkedIn"]
+    },
+    {
+      "icp_id": "usa_electronics_multichannel_smb",
+      "persona": "Operations / COO",
+      "persona_id": "OPERATIONS_COO",
+      "region": "USA",
+      "hq_location": "United States",
+      "decision_maker_title": "VP Operations",
+      "age_range": "32-50",
+      "product_category": "Electronics & Gadgets",
+      "sales_channels": ["Amazon", "Shopify", "eBay"],
+      "primary_marketplace": "Amazon",
+      "top_marketplaces": ["Amazon", "Shopify", "eBay"],
+      "revenue_stage": "Established SMB",
+      "annual_revenue_range": "$1M–$5M",
+      "employee_count": "51-200",
+      "top_pain_points": [
+        "Fragmented carrier contracts creating cost inefficiency and coverage gaps",
+        "Poor cross-channel inventory visibility causing oversells on eBay and Amazon simultaneously",
+        "Difficulty meeting 2-day delivery promise nationwide for electronics",
+        "Returns complexity for electronics requiring inspection before restocking",
+        "Single warehouse dependency creating risk during peak season"
+      ],
+      "locad_value_propositions": [
+        "50+ carrier network with automated cheapest-first allotment reduces logistics cost up to 44%",
+        "OMS syncs every 3 minutes across Amazon, eBay, and Shopify eliminating cross-channel oversells",
+        "98% 3-day nationwide US coverage through multi-warehouse network",
+        "Returns management with inspection workflow handles electronics returns properly",
+        "Real-time SLA dashboards reduce escalations and manual ops overhead"
+      ],
+      "key_motivations": [
+        "Eliminate carrier dependency risk",
+        "Reduce ops team firefighting with automation",
+        "Achieve nationwide 2-day delivery at scale without FBA"
+      ],
+      "likely_objections": [
+        "Can Locad really replace our current 3PL at this volume?",
+        "How does your carrier network compare to our existing contracts?",
+        "Will migration disrupt our Amazon account health scores?",
+        "How does Locad handle returns inspection for electronics?"
+      ],
+      "buying_trigger": "Carrier contract renewal coming up or Q4 ops review revealing logistics cost creep",
+      "content_that_converts": "ROI analysis showing 44% savings, ops efficiency case study for electronics brand",
+      "ad_creative_formats_that_resonate": ["savings calculator", "ops efficiency dashboard demo", "before/after carrier cost breakdown"],
+      "best_ad_channels": ["LinkedIn", "Google Search", "Industry trade publications"]
+    },
+    {
+      "icp_id": "usa_fashion_tiktok_midmarket",
+      "persona": "Marketing",
+      "persona_id": "MARKETING",
+      "region": "USA",
+      "hq_location": "United States",
+      "decision_maker_title": "VP Marketing / CMO",
+      "age_range": "30-45",
+      "product_category": "Fashion & Accessories",
+      "sales_channels": ["TikTok Shop", "Shopify", "Amazon"],
+      "primary_marketplace": "TikTok Shop",
+      "top_marketplaces": ["TikTok Shop", "Shopify", "Amazon"],
+      "revenue_stage": "Mid-Market",
+      "annual_revenue_range": "$5M–$20M",
+      "employee_count": "51-200",
+      "top_pain_points": [
+        "Campaigns fail due to stockouts during viral TikTok moments",
+        "High shipping costs leading to cart abandonment on Shopify DTC",
+        "Cannot set up bundles easily across TikTok Shop and Shopify",
+        "Negative delivery reviews hurting TikTok Shop rankings and conversions",
+        "Poor post-purchase experience damaging LTV and repeat purchase rate"
+      ],
+      "locad_value_propositions": [
+        "OMS 3-minute sync prevents stockouts during viral TikTok campaigns",
+        "50+ carrier network with cheapest-first allotment reduces shipping costs and cart abandonment",
+        "Virtual bundling module enables promotional bundles across TikTok Shop and Shopify without manual ops",
+        "Same-day and next-day fulfillment protects TikTok Shop ratings and repeat purchase rates",
+        "Returns management preserves post-purchase brand experience"
+      ],
+      "key_motivations": [
+        "Make every campaign land without logistics failures",
+        "Reduce cart abandonment from shipping cost friction",
+        "Build brand loyalty through fast, reliable delivery"
+      ],
+      "likely_objections": [
+        "Can Locad handle the unpredictable volume spikes from TikTok virality?",
+        "Will cheaper carrier selection compromise delivery experience?",
+        "Is Locad proven for fashion brands doing $10M+ on TikTok Shop?",
+        "How does billing compare to our current setup?"
+      ],
+      "buying_trigger": "TikTok viral moment results in stockout and 3-star review wave",
+      "content_that_converts": "Fashion brand case study, TikTok campaign readiness demo, cart abandonment reduction proof",
+      "ad_creative_formats_that_resonate": ["TikTok-native demo video", "conversion lift case study", "bundle ROI showcase"],
+      "best_ad_channels": ["TikTok", "Meta", "LinkedIn"]
+    },
+    {
+      "icp_id": "usa_sports_amazon_midmarket",
+      "persona": "Finance / CFO",
+      "persona_id": "FINANCE_CFO",
+      "region": "USA",
+      "hq_location": "United States",
+      "decision_maker_title": "CFO / Finance Director",
+      "age_range": "35-55",
+      "product_category": "Sports & Lifestyle",
+      "sales_channels": ["Amazon", "Shopify", "eBay"],
+      "primary_marketplace": "Amazon",
+      "top_marketplaces": ["Amazon", "Shopify", "eBay"],
+      "revenue_stage": "Mid-Market",
+      "annual_revenue_range": "$5M–$20M",
+      "employee_count": "201-500",
+      "top_pain_points": [
+        "Rising FBA fees and storage surcharges eroding contribution margin",
+        "Unpredictable logistics billing with hidden fees from current 3PL",
+        "Scaling fulfillment costs faster than revenue growth",
+        "SLA penalty exposure during peak sports seasons (NFL, back-to-school)",
+        "No unified cost visibility across Amazon FBA, FBM, and DTC fulfillment"
+      ],
+      "locad_value_propositions": [
+        "Up to 44% fulfillment and storage savings vs FBA and traditional 3PLs",
+        "Transparent billing with no hidden fees, pay-for-use pricing model",
+        "OMS real-time sync reduces overselling that causes costly cancellations",
+        "Multi-warehouse network reduces last-mile cost without SLA compromise",
+        "Consolidated billing across all channels provides unified cost visibility"
+      ],
+      "key_motivations": [
+        "Protect contribution margin as order volume scales",
+        "Achieve predictable, transparent logistics cost structure",
+        "Reduce SLA penalty exposure during seasonal peaks"
+      ],
+      "likely_objections": [
+        "What are the total migration costs and timeline?",
+        "Is the 44% savings claim verifiable for our specific volume and SKU mix?",
+        "What SLA penalty exposure does Locad protect against?",
+        "How does billing compare to our current FBA + 3PL hybrid setup?"
+      ],
+      "buying_trigger": "Annual logistics cost review showing FBA fee increases above 15% YoY",
+      "content_that_converts": "Cost modeling tool, detailed case study with before/after P&L impact, transparent pricing page",
+      "ad_creative_formats_that_resonate": ["ROI calculator", "cost comparison white paper", "CFO-focused webinar"],
+      "best_ad_channels": ["LinkedIn", "Google Search", "CFO-targeted trade media"]
+    },
+    {
+      "icp_id": "usa_food_grocery_temu_growing",
+      "persona": "E-commerce Manager",
+      "persona_id": "ECOM_MANAGER",
+      "region": "USA",
+      "hq_location": "United States",
+      "decision_maker_title": "E-commerce Director",
+      "age_range": "28-45",
+      "product_category": "Food & Groceries (Non-Perishable)",
+      "sales_channels": ["Temu", "Amazon", "Shopify"],
+      "primary_marketplace": "Temu",
+      "top_marketplaces": ["Temu", "Amazon", "Shopify"],
+      "revenue_stage": "Growing / Scaling",
+      "annual_revenue_range": "$100k–$1M",
+      "employee_count": "11-50",
+      "top_pain_points": [
+        "Expiry/batch tracking complexity across multiple warehouses",
+        "High order frequency demanding fast and accurate fulfillment",
+        "Stocking and replenishment challenges for high-velocity non-perishable SKUs",
+        "Rising 3PL storage costs as SKU count and volume grows",
+        "Single-carrier dependency causing delays during peak periods"
+      ],
+      "locad_value_propositions": [
+        "FEFO expiry management and batch tracking reduce spoilage and write-offs",
+        "OMS real-time sync every 3 minutes prevents overselling across Temu, Amazon, Shopify",
+        "50+ carrier network ensures reliable fast delivery for high-frequency orders",
+        "Multi-warehouse network speeds up replenishment and reduces last-mile cost",
+        "97.3% same-day fulfillment rate matches high consumer expectations"
+      ],
+      "key_motivations": [
+        "Ensure product freshness compliance across all channels",
+        "Scale volume without proportional ops cost increase",
+        "Protect Temu and Amazon seller ratings through SLA compliance"
+      ],
+      "likely_objections": [
+        "Does Locad handle non-perishable food category compliance requirements?",
+        "Can Locad match Temu's SLA requirements at our volume?",
+        "How does expiry/batch tracking work in practice?",
+        "Is Locad proven for food brands at our scale?"
+      ],
+      "buying_trigger": "First expiry write-off event or Temu SLA warning notification",
+      "content_that_converts": "Food brand case study showing expiry management, Temu SLA compliance proof",
+      "ad_creative_formats_that_resonate": ["compliance checklist", "batch tracking demo", "SLA success metric showcase"],
+      "best_ad_channels": ["LinkedIn", "Meta", "Google Search"]
+    },
+    {
+      "icp_id": "usa_electronics_amazon_enterprise",
+      "persona": "Operations / COO",
+      "persona_id": "OPERATIONS_COO",
+      "region": "USA",
+      "hq_location": "United States",
+      "decision_maker_title": "COO / VP Supply Chain",
+      "age_range": "40-58",
+      "product_category": "Electronics & Gadgets",
+      "sales_channels": ["Amazon", "Shopify", "eBay", "TikTok Shop"],
+      "primary_marketplace": "Amazon",
+      "top_marketplaces": ["Amazon", "Shopify", "eBay", "TikTok Shop"],
+      "revenue_stage": "Mid-Market",
+      "annual_revenue_range": "$5M–$20M",
+      "employee_count": "201-500",
+      "top_pain_points": [
+        "Managing multiple 3PL relationships with inconsistent SLA performance",
+        "Lack of unified real-time inventory visibility across all channels",
+        "High carrier cost variance and no automated optimization",
+        "Returns complexity for electronics with inspection and quality control needs",
+        "Difficulty proving fulfillment ROI to C-suite and board"
+      ],
+      "locad_value_propositions": [
+        "Single OMS provides unified inventory visibility across all 4 channels in real time",
+        "50+ carrier network with automated cheapest-first allotment reduces per-shipment cost",
+        "98% 3-day nationwide US coverage eliminates need for multiple regional 3PLs",
+        "Returns management with structured inspection workflow handles electronics returns",
+        "Performance dashboards prove fulfillment ROI with clear metrics"
+      ],
+      "key_motivations": [
+        "Consolidate fragmented logistics into a single reliable platform",
+        "Prove logistics cost efficiency to CFO and board",
+        "Eliminate operational risk from carrier or 3PL failure"
+      ],
+      "likely_objections": [
+        "Can Locad handle our volume reliably at $10M+ annual GMV?",
+        "What does the migration timeline look like and what is the risk?",
+        "How does your SLA track record compare to our current providers?",
+        "Can you integrate with our existing ERP and tech stack?"
+      ],
+      "buying_trigger": "Board-level logistics review or carrier contract renewal with cost increase",
+      "content_that_converts": "Enterprise case study with specific ROI metrics, integration capability overview, migration playbook",
+      "ad_creative_formats_that_resonate": ["executive summary one-pager", "ROI dashboard demo", "migration timeline overview"],
+      "best_ad_channels": ["LinkedIn", "Google Search", "Industry analyst coverage"]
+    },
+    {
+      "icp_id": "usa_health_beauty_cxo_smb",
+      "persona": "Customer Experience / CCO",
+      "persona_id": "CX_CCO",
+      "region": "USA",
+      "hq_location": "United States",
+      "decision_maker_title": "Head of Customer Experience",
+      "age_range": "28-45",
+      "product_category": "Health & Beauty",
+      "sales_channels": ["Shopify", "Amazon", "TikTok Shop"],
+      "primary_marketplace": "Shopify",
+      "top_marketplaces": ["Shopify", "Amazon", "TikTok Shop"],
+      "revenue_stage": "Established SMB",
+      "annual_revenue_range": "$1M–$5M",
+      "employee_count": "51-200",
+      "top_pain_points": [
+        "Frequent customer complaints about late deliveries damaging CSAT and NPS",
+        "Stockouts causing cancellations and negative reviews on Amazon and Shopify",
+        "Slow returns process creating frustration and repeat escalations",
+        "Poor order visibility leading to high WISMO (where is my order) ticket volume",
+        "Marketplace ratings dropping due to SLA breaches"
+      ],
+      "locad_value_propositions": [
+        "97.3% same-day fulfillment rate dramatically reduces late delivery complaints",
+        "Returns management module with automated customer notifications reduces escalations",
+        "OMS order tracking with real-time visibility reduces WISMO ticket volume",
+        "Automated low-stock alerts prevent stockouts that cause cancellations",
+        "98% 3-day nationwide coverage keeps delivery promises to customers"
+      ],
+      "key_motivations": [
+        "Reduce customer complaint volume and escalation rate",
+        "Protect and improve Amazon and Shopify ratings",
+        "Build brand reputation through consistent, fast, reliable delivery"
+      ],
+      "likely_objections": [
+        "Will Locad's delivery speed actually match what we promise customers?",
+        "How does the returns process work end-to-end for customers?",
+        "Can Locad provide order visibility we can surface to customers directly?",
+        "What happens when there is an issue with a delivery?"
+      ],
+      "buying_trigger": "Monthly CSAT report showing delivery complaints above 15% of total tickets",
+      "content_that_converts": "CX-focused case study with CSAT improvement metrics, returns process demo",
+      "ad_creative_formats_that_resonate": ["CSAT improvement case study", "customer review transformation story", "returns workflow demo"],
+      "best_ad_channels": ["LinkedIn", "Meta", "CX industry events"]
+    }
+  ]
+}

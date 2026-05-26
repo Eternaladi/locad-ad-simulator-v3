@@ -1,0 +1,13 @@
+name: sample_ab_test
+panel: usa_gcc_balanced
+gate: standard
+variants:
+  - id: cost_sync
+    image: inputs/ads/sample_locad_ad.png
+    copy: inputs/ads/sample_locad_ad_copy.txt
+  - id: generic_scale
+    image: inputs/ads/sample_locad_ad.png
+    copy_text: |
+      Scale your logistics with seamless fulfillment.
+      Grow faster with an all-in-one 3PL built for modern brands.
+      Get started today.

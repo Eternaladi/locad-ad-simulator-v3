@@ -1,0 +1,6 @@
+ad_id,region,panel,overall_score,trust,proof_sufficiency,go_rate,human_label,campaign_label,notes
+locad_cost_sync_demo,USA,usa_gcc_balanced,7.8,7.2,7.0,0.72,good,above_average,Specific pain + proof + CTA
+locad_generic_scale,GCC,usa_gcc_balanced,5.9,5.1,4.2,0.38,too_generic,below_average,Could apply to any 3PL
+locad_ramadan_peak,GCC,gcc_growth_panel,8.1,7.3,7.4,0.80,good,above_average,Strong GCC localization
+locad_fba_storage,USA,usa_founder_panel,7.4,6.8,6.1,0.66,good,average,Strong pain but migration proof could be better
+locad_fast_delivery_generic,USA,usa_gcc_balanced,6.1,5.0,4.8,0.44,needs_revision,below_average,Speed claim under-supported

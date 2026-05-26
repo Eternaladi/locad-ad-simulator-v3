@@ -1,0 +1,15 @@
+models:
+  offline:
+    provider: offline
+    model: heuristic-v0.2
+    enabled: true
+  anthropic:
+    provider: anthropic
+    model: claude-opus-4-5
+    max_tokens: 1500
+    enabled: false
+  openai:
+    provider: openai
+    model: gpt-5.5-pro
+    max_tokens: 1500
+    enabled: false

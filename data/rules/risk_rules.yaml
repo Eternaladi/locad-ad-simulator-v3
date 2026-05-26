@@ -1,0 +1,11 @@
+risk_patterns:
+  - id: overclaiming
+    severity: high
+    patterns: [guaranteed, always, never, zero risk, perfect]
+  - id: vague_growth_language
+    severity: medium
+    patterns: [grow faster, scale effortlessly, logistics made easy, seamless]
+  - id: missing_buyer_context
+    severity: medium
+    patterns: []
+    description: Triggered when no channel, marketplace, region, proof, or pain point is visible.

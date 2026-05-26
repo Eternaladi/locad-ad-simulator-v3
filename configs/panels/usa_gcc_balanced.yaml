@@ -1,0 +1,24 @@
+name: usa_gcc_balanced
+size: 24
+description: Balanced USA/GCC panel across all four major ICP personas.
+coverage_targets:
+  regions:
+    USA: 0.5
+    GCC: 0.5
+  personas:
+    The Scaling DTC Founder: 0.25
+    The Omnichannel Operations Director: 0.25
+    The UAE Premium Brand Builder: 0.25
+    The GCC Cross-Border Growth Lead: 0.25
+required_axes:
+  - region
+  - persona
+  - product_category
+  - primary_marketplace
+  - revenue_stage
+  - top_pain_points
+  - locad_value_propositions
+  - likely_objections
+sampling:
+  strategy: max_coverage
+  seed: 42

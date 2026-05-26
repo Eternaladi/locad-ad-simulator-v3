@@ -1,0 +1,10 @@
+sections:
+  - meta
+  - gate_decision
+  - scorecard
+  - coverage
+  - evidence_linter
+  - committee
+  - baseline_comparison
+  - persona_cards
+  - next_actions
