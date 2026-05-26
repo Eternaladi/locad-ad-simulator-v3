@@ -19,6 +19,6 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install -r requirements.txt
-- run: python scripts/compile_icps.py
-- run: pytest -q
-- run: python evals/run_eval_suite.py
+      - run: python scripts/compile_icps.py
+      - run: pytest -q
+      - run: python evals/run_eval_suite.py
