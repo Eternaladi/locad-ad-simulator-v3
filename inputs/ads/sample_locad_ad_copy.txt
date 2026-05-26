@@ -1,2 +1,2 @@
-Omni-Channel Shipping Dashboard. Full visibility.
-Locad’s unified dashboard tracks every order across 50+ carriers from warehouse pick to customer doorstep.		
+Full-chain visibility. Not just the last mile.	
+Locad manages the full 3PL chain from storage, pick-pack, to delivery. Every update flowing seamlessly through one centralized dashboard.	
